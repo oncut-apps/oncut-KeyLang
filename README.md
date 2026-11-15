@@ -30,8 +30,10 @@ leaves your computer.
   left on while you type English.
 - **Stays out of the way.** No window, only a tray icon. Pause it, switch it off
   in chosen applications, start it when you sign in.
-- **Nothing leaves your computer.** No telemetry, no crash uploads, no automatic
-  updates. What you type is examined in memory and discarded.
+- **Nothing you type leaves your computer.** No telemetry, no crash uploads, no
+  automatic updates. What you type is examined in memory and discarded. On
+  Windows the license is handled by the separate oncut License Manager, which
+  never sees what you type (see [Privacy](#privacy)).
 
 ## Examples
 
@@ -58,10 +60,11 @@ the keyboard (Y and Z on German; A, Q, Z and W on French) can be told apart.
 | Price | EUR 9.90, VAT included, one payment | free | not yet |
 | Trial | 14 days, same download | not needed | |
 | License key | by email within one business day | none | |
+| Activation | oncut License Manager, installed with KeyLang | none | |
 | Package | installer, signed by oncut | AppImage | |
 
-Buy at <https://apps.oncut.gr/keylang>. Refunds within 14 days, no questions
-asked: <https://apps.oncut.gr/refunds>.
+Buy at <https://apps.oncut.gr/keylang>. Refunds within 14 days of payment, no
+questions asked: <https://apps.oncut.gr/refunds>.
 
 ## Download
 
@@ -95,8 +98,18 @@ To check that a file came from oncut, see [Checking a download](#checking-a-down
 ## Privacy
 
 KeyLang has to see the keys you press to do its job. It checks them in memory
-and discards them; it makes no network connections of its own and keeps no
-record of what you type. The full notice: <https://apps.oncut.gr/privacy>.
+and discards them; it makes no network connections and keeps no record of what
+you type.
+
+On Windows, the trial and the license are handled by the oncut License Manager,
+a separate app installed with KeyLang. It activates the license with oncut's
+activation server and renews the activation about once a day while the computer
+is online; KeyLang itself checks the license offline. The License Manager never
+receives what you type. What it sends and what the server keeps is in section 4
+of the privacy notice. How it works: <https://apps.oncut.gr/license-manager>.
+The Linux edition has no license and no License Manager.
+
+The full notice: <https://apps.oncut.gr/privacy>.
 
 ## Support
 
@@ -105,7 +118,8 @@ record of what you type. The full notice: <https://apps.oncut.gr/privacy>.
   files.
 - **Purchases, license keys, refunds, privacy:** support@oncut.gr.
 - **A security problem:** report it privately, as described in the
-  [security policy](../../security/policy).
+  [security policy](../../security/policy) and at
+  <https://apps.oncut.gr/security>.
 
 ## Checking a download
 

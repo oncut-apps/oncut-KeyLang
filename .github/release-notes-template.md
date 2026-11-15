@@ -11,13 +11,14 @@ Title of the release: "oncut KeyLang {version}", tag "v{version}".
 
 | File | For | SHA-256 |
 | --- | --- | --- |
-| `oncut_KeyLang-{version}-windows-x64-setup.exe` | Windows 10 and 11; 14-day trial, a license key unlocks it | `{sha256}` |
-| `oncut_KeyLang-{version}-x86_64.AppImage` | Linux, X11 session; free | `{sha256}` |
+| `oncut_KeyLang-{version}-windows-x64-setup.exe` | Windows 10 and 11; 14-day trial, a license key unlocks it (activated by the oncut License Manager, installed with it) | `{sha256}` |
+| `oncut_KeyLang-{version}-x86_64.AppImage` | Linux x86_64, X11, or Wayland on KDE Plasma and GNOME through Fcitx5; free | `{sha256}` |
 
 `SHA256SUMS` and `SHA256SUMS.minisig` are attached too. The same files are at
 <https://apps.oncut.gr/keylang>. Windows: run the installer (per user, no
 administrator rights; installer and application signed by oncut). Linux: `chmod +x` the AppImage
-and run it; Ubuntu 24.04 needs `sudo apt install libfuse2t64` once.
+and run it; under Wayland it offers the Fcitx5 setup at its first start; Ubuntu
+24.04 needs `sudo apt install libfuse2t64` once.
 
 ## Checking the files
 
