@@ -14,6 +14,10 @@ leaves your computer.
 > This repository carries KeyLang's releases and its issue tracker. KeyLang is
 > proprietary software: the source code is not published here.
 
+<!-- Video: in the GitHub editor, put the cursor on the empty line below and
+     drag the MP4 in; GitHub uploads it and writes the link that plays here. -->
+
+
 ## What it does
 
 - **Warns after one word.** Every word you finish is checked, on your
@@ -52,6 +56,34 @@ One word in each of the eight languages, typed with the wrong layout on:
 
 German and French share most keys with English, so only words that differ on
 the keyboard (Y and Z on German; A, Q, Z and W on French) can be told apart.
+
+## Screenshots
+
+<p align="center">
+  <img src="assets/screenshots/toast-wrong-layout-greek.webp" alt="KeyLang's warning card: kalhmera, typed with the English layout on, read as καλημέρα, with the hint to click the card to switch the layout." width="480">
+</p>
+
+The warning, after one word: click the card and the layout switches.
+
+<p align="center">
+  <img src="assets/screenshots/settings-convert.webp" alt="KeyLang Settings, Convert page: the Greek-layout text ψολορ converted to color." width="720">
+</p>
+
+Convert: paste text typed on the wrong layout and read it back corrected.
+
+<p align="center">
+  <img src="assets/screenshots/settings-detection.webp" alt="KeyLang Settings, Detection page: sensitivity, automatic switching, Greek accents and the learned dictionaries." width="720">
+</p>
+
+Detection: how sure KeyLang must be before it warns, and the words you taught
+it.
+
+<p align="center">
+  <img src="assets/screenshots/settings-applications.webp" alt="KeyLang Settings, Applications page: the list of applications where detection pauses." width="720">
+</p>
+
+Applications: KeyLang steps aside in the programs you choose, such as a
+password manager.
 
 ## Editions
 
