@@ -18,6 +18,10 @@ leaves your computer.
      drag the MP4 in; GitHub uploads it and writes the link that plays here. -->
 
 
+https://github.com/user-attachments/assets/3dec753e-5d01-428f-a7e0-8d8bc191367a
+
+
+
 ## What it does
 
 - **Warns after one word.** Every word you finish is checked, on your
