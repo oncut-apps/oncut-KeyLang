@@ -14,13 +14,7 @@ leaves your computer.
 > This repository carries KeyLang's releases and its issue tracker. KeyLang is
 > proprietary software: the source code is not published here.
 
-<!-- Video: in the GitHub editor, put the cursor on the empty line below and
-     drag the MP4 in; GitHub uploads it and writes the link that plays here. -->
-
-
 https://github.com/user-attachments/assets/3dec753e-5d01-428f-a7e0-8d8bc191367a
-
-
 
 ## What it does
 
